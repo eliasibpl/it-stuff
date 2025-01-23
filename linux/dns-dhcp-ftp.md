@@ -418,8 +418,7 @@ We can log from our network using the command:
 ```shell
 ftp ftp1@192.168.174.30
 ```
-You'll be prompted for the password
-
+You'll be prompted for the password  
 ![](https://hackmd.io/_uploads/SktI4_Xw2.png)
 
 Once inside you can type **help** to get the commands
