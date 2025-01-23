@@ -29,7 +29,7 @@ In your **Github Account** go to `Settings`
 Head to `SSH and GPG Keys`\
 ![Screenshot_20241114_121927](https://hackmd.io/_uploads/BJvAnI7GJl.png)
 
-Click `New SSH Key`
+Click `New SSH Key`  
 ![Screenshot_20241114_122018](https://hackmd.io/_uploads/ryxsaUQM1g.png)
 
 And now you have to paste the content of your `id_rsa.pub` key. you can do so by running this command unless you changed it's default name.
@@ -121,7 +121,7 @@ git checkout 88bf60a9253cc716c7fee9754e801ca54a222cbc
 ![Screenshot_20241114_134751](https://hackmd.io/_uploads/B1ItbdmGkl.png)
 ![Screenshot_20241114_135012](https://hackmd.io/_uploads/Hy4Gz_7fJe.png)
 
-In this commit we don't see the `clone-pull` change
+In this commit we don't see the `clone-pull` change  
 ![Screenshot_20241114_135103](https://hackmd.io/_uploads/r1OHf_mfJg.png)
 
 With the `git branch` command we can see that we're in a different branch (detached)
