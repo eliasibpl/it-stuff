@@ -1,10 +1,4 @@
----
-title: "LAN PROJECT Part 1: DNS, DHCP and FTP Servers on Ubuntu 22.04 LTS"
----
-
 # LAN PROJECT Part 1: DNS, DHCP and FTP Servers on Ubuntu 22.04 LTS
-[TOC]
-
 ## VM Structures
 We're using VMware Workstation 16.2.x with the following machines:
 ![](https://hackmd.io/_uploads/ry2rwQXv3.png)
