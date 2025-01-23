@@ -23,10 +23,10 @@ ssh-keygen -t rsa -b 4096 -C "eibanezpl@gmail.com"
 ```
 The `-t` flag specifies with kind of key, in this case **rsa**, `-b` flag indicates que bits to the key **4096** being strong, `-C` to comment the mail associated with the key.
 
-In your **Github Account** go to `Settings` 
+In your **Github Account** go to `Settings`  
 ![Screenshot_20241114_121848](https://hackmd.io/_uploads/Hyy2hIXM1e.png)
 
-Head to `SSH and GPG Keys`
+Head to `SSH and GPG Keys`\
 ![Screenshot_20241114_121927](https://hackmd.io/_uploads/BJvAnI7GJl.png)
 
 Click `New SSH Key`
