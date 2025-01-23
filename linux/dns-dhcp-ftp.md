@@ -609,7 +609,7 @@ Now we can connect using the command ftp-ssl **server name**
 ftp-ssl ftp1
 ```
 
-We'll be prompted by the user name and password
+We'll be prompted by the user name and password  
 ![](https://hackmd.io/_uploads/BJrH15Qvh.png)
 
 ### SFTP Testing
