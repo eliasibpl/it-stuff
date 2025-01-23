@@ -55,11 +55,11 @@ ip a
 ![](https://hackmd.io/_uploads/ByE0pXmD2.png)
 
 #### Network planification
-dhcp1  ens32: 192.168.174.10 - 00:0C:29:57:59:10
+`dhcp1  ens32: 192.168.174.10 - 00:0C:29:57:59:10
 ns1    ens32: 192.168.174.20 - 00:50:56:3C:2F:B8
 ftp1   ens32: 192.168.174.30 - 00:0c:29:fb:8e:67
 host1  ens32: 192.168.174.10 - 00:50:56:39:A8:2D
-host2  ens32: 192.168.174.10 - 00:50:56:3A:C0:CF
+host2  ens32: 192.168.174.10 - 00:50:56:3A:C0:CF`
 
 ## DHCP Server
 First let's change our hostname
@@ -419,28 +419,33 @@ We can log from our network using the command:
 ftp ftp1@192.168.174.30
 ```
 You'll be prompted for the password
+
 ![](https://hackmd.io/_uploads/SktI4_Xw2.png)
 
 Once inside you can type **help** to get the commands
 ![](https://hackmd.io/_uploads/Sy_0EuQPn.png)
 
-`**dir**` or `**ls**` is used to see what's inside our directory
+`dir` or `ls` is used to see what's inside our directory
+
 ![](https://hackmd.io/_uploads/BJM3VFXv2.png)
 
-`**delete**` erases a file
+`delete` erases a file
+
 ![](https://hackmd.io/_uploads/SyceSY7v2.png)
 
-`**cd**` to change directories
+`cd` to change directories
+
 ![](https://hackmd.io/_uploads/r174HK7v2.png)
 
-`**put**` uploads a file from the host directory
+`put` uploads a file from the host directory
+
 ![](https://hackmd.io/_uploads/SJaFHY7w3.png)
 
-`**get**` downloads a file
+`get` downloads a file
 
 ![](https://hackmd.io/_uploads/SyPhBK7D3.png)
 
-`**exit**` to leave ftp
+`exit` to leave ftp
 
 ### Auto-signed certificates
 To enable FTPS and SFTP we need encryption, we can get an auto-signed certificates through one of these commands:
