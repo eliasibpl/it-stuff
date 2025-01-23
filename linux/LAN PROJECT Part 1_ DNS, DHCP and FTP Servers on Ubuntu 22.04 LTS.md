@@ -436,6 +436,7 @@ Once inside you can type **help** to get the commands
 ![](https://hackmd.io/_uploads/SJaFHY7w3.png)
 
 **get** downloads a file
+
 ![](https://hackmd.io/_uploads/SyPhBK7D3.png)
 
 **exit** to leave ftp
