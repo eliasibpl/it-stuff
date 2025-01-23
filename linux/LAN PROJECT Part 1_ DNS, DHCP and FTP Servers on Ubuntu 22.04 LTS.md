@@ -399,6 +399,7 @@ su ftp1
 ```
 
 Place a few things to play with in it's home directory
+
 ![](https://hackmd.io/_uploads/r15Em_Xvh.png)
 
 You can quit this user's session with the command:
@@ -423,23 +424,23 @@ You'll be prompted for the password
 Once inside you can type **help** to get the commands
 ![](https://hackmd.io/_uploads/Sy_0EuQPn.png)
 
-**dir** or **ls** is used to see what's inside our directory
+`**dir**` or `**ls**` is used to see what's inside our directory
 ![](https://hackmd.io/_uploads/BJM3VFXv2.png)
 
-**delete** erases a file
+`**delete**` erases a file
 ![](https://hackmd.io/_uploads/SyceSY7v2.png)
 
-**cd** to change directories
+`**cd**` to change directories
 ![](https://hackmd.io/_uploads/r174HK7v2.png)
 
-**put** uploads a file from the host directory
+`**put**` uploads a file from the host directory
 ![](https://hackmd.io/_uploads/SJaFHY7w3.png)
 
-**get** downloads a file
+`**get**` downloads a file
 
 ![](https://hackmd.io/_uploads/SyPhBK7D3.png)
 
-**exit** to leave ftp
+`**exit**` to leave ftp
 
 ### Auto-signed certificates
 To enable FTPS and SFTP we need encryption, we can get an auto-signed certificates through one of these commands:
